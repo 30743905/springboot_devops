@@ -9,6 +9,7 @@ pipeline{
                 echo "环境检查"
                 sh 'pwd && ls -alh'
                 sh 'printenv'
+                echo '。。。'
             }
         }
 
