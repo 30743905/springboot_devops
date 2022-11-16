@@ -7,6 +7,8 @@ pipeline{
         stage('环境检查'){
             steps{
                 echo "环境检查"
+                sh 'pwd && ls -alh'
+                sh 'printenv'
             }
         }
 
